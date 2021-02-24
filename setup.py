@@ -1,10 +1,10 @@
 #!/usr/bin/env python
-VERSION="0.8.1"
-AUTHOR="Joon Ro"
-EMAIL="joon.ro@outlook.com"
+VERSION="0.8.1/romanrue"
+AUTHOR="Roman Rüttimann"
+EMAIL="roman.ruettimann@gmail.com"
 DESC="Color Schemes for Jupyter Qt Console"
-NAME="jupyter_qtconsole_colorschemes"
-URL="https://bitbucket.org/joon/color-schemes-for-jupyter-qt-console"
+NAME="qtc-color-themes"
+URL="https://github.com/romanrue/qtc-color-themes"
 from setuptools import setup
 
 DOWNLOAD_URL = URL + "/get/v{}.zip".format(VERSION)
@@ -21,6 +21,7 @@ setup(
     package_data={NAME: ["*.css"]},
     entry_points={"pygments.styles": [
         "{style} = {pkgname}.{style}:Base16OceanDarkStyle".format(pkgname=NAME, style='base16_ocean_dark'),
+        "{style} = {pkgname}.{style}:OneDarkStyle".format(pkgname=NAME, style='onedark'),
         '{style} = {pkgname}.{style}:MaterialLightStyle'.format(pkgname=NAME, style='material_light'),
         "{style} = {pkgname}.{style}:SolarizeddarkStyle".format(pkgname=NAME, style='solarizeddark'),
         "{style} = {pkgname}.{style}:SolarizedlightStyle".format(pkgname=NAME, style='solarizedlight'),
