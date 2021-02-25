@@ -10,11 +10,11 @@ from pygments.token import Operator, String, Text, Error
 
 BASE03 = '#282C34'
 BASE02 = '#2E3642'
-BASE01 = '#B5C2D9'
-BASE00 = '#BBC2E0'
+BASE01 = '#5C6370'
+BASE00 = '#3E4452'
 BASE0 = '#526488'
 BASE1 = '#899AB8'
-BASE2 = '#B5C2D9'
+BASE2 = '#ABB2BF'
 BASE3 = '#D8DCEE'
 YELLOW = '#E5C07B'
 ORANGE = '#FEA47F'
@@ -25,26 +25,26 @@ BLUE = '#61AFEF'
 CYAN = '#56B6C2'
 GREEN = '#98C379'
 
-class SolarizeddarkStyle(Style):
-    color = BASE1
+class OneDarkStyle(Style):
+    color = BASE2
     background_color = BASE03
-    highlight_color = BASE01
+    highlight_color = BASE00
 
     styles = {
-        Text: BASE1,
+        Text: BASE2,
 
-        Keyword: GREEN,
-        Keyword.Constant: ORANGE,
-        Keyword.Declaration: BLUE,
+        Keyword: MAGENTA,
+        Keyword.Constant: BLUE,
+        Keyword.Declaration: MAGENTA,
         #Keyword.Namespace
         #Keyword.Pseudo
         Keyword.Reserved: BLUE,
-        Keyword.Type: RED,
+        Keyword.Type: BLUE,
 
-        Name: BASE1,
-        Name.Attribute: BASE1,
-        Name.Builtin: YELLOW,
-        Name.Builtin.Pseudo: BLUE,
+        Name: BASE2,
+        Name.Attribute: BASE2,
+        Name.Builtin: RED,
+        Name.Builtin.Pseudo: MAGENTA,
         Name.Class: BLUE,
         Name.Constant: ORANGE,
         Name.Decorator: BLUE,
@@ -62,10 +62,10 @@ class SolarizeddarkStyle(Style):
 
         #Literal
         #Literal.Date
-        String: CYAN,
+        String: GREEN,
         String.Backtick: BASE01,
-        String.Char: CYAN,
-        String.Doc: CYAN,
+        String.Char: GREEN,
+        String.Doc: GREEN,
         #String.Double
         String.Escape: ORANGE,
         String.Heredoc: BASE1,
@@ -75,7 +75,7 @@ class SolarizeddarkStyle(Style):
         #String.Single
         #String.Symbol
 
-        Number: CYAN,
+        Number: YELLOW,
         #Number.Float
         #Number.Hex
         #Number.Integer
@@ -94,11 +94,11 @@ class SolarizeddarkStyle(Style):
         Comment.Special: GREEN,
 
         #Generic
-        Generic.Deleted: CYAN,
+        Generic.Deleted: MAGENTA,
         Generic.Emph: 'italic',
         Generic.Error: RED,
         Generic.Heading: ORANGE,
-        Generic.Inserted: GREEN,
+        Generic.Inserted: BLUE,
         #Generic.Output
         #Generic.Prompt
         Generic.Strong: 'bold',

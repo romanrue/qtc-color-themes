@@ -6,7 +6,7 @@ selection-color: #ABB2BF;
 }
 .inverted { background-color: #899AB8; color: #BBC2E0;}
 .error { color: #E06C75; }
-.in-prompt { color: #98C379; }
+.in-prompt { color: #5C6370; }
 .in-prompt-number { font-weight: bold; }
-.out-prompt { color: #C678DD; }
+.out-prompt { color: #5C6370; }
 .out-prompt-number { font-weight: bold; }

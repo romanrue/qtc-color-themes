@@ -1,9 +1,9 @@
 #!/usr/bin/env python
-VERSION="0.8.1/romanrue"
+VERSION="0.8.1"
 AUTHOR="Roman Rüttimann"
 EMAIL="roman.ruettimann@gmail.com"
 DESC="Color Schemes for Jupyter Qt Console"
-NAME="qtc-color-themes"
+NAME="qtc_color_themes"
 URL="https://github.com/romanrue/qtc-color-themes"
 from setuptools import setup
 
