@@ -1,0 +1,12 @@
+QPlainTextEdit, QTextEdit {
+        background-color: #FAFAFA;
+        color: #ABB2BF;
+        selection-background-color: #F0F0F0;
+        selection-color: #D0D0D0;
+}
+.inverted { background-color: #526EFF; color: #A0A0A0;}
+.error { color: #E45649; }
+.in-prompt { color: #50A14F; }
+.in-prompt-number { font-weight: bold; }
+.out-prompt { color: #A626A4; }
+.out-prompt-number { font-weight: bold; }
