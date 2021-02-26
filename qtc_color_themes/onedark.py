@@ -1,7 +1,6 @@
 """
-A Pygments_ style based on the dark background variant of Solarized_.
+one dark style based on vim-one
 
-.. _Pygments: http://pygments.org/
 .. _vim-one: https://github.com/rakr/vim-one
 """
 from pygments.style import Style
