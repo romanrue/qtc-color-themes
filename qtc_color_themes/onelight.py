@@ -1,7 +1,6 @@
 """
-A Pygments_ style based on the dark background variant of Solarized_.
+one light style based on vim-one
 
-.. _Pygments: http://pygments.org/
 .. _vim-one: https://github.com/rakr/vim-one
 """
 from pygments.style import Style
@@ -28,23 +27,23 @@ GREEN = '#50A14F'
 class OneLightStyle(Style):
     color = BASE1
     background_color = BASE03
-    highlight_color = BASE01
+    highlight_color = BASE00
 
     styles = {
         Text: BASE1,
 
-        Keyword: GREEN,
-        Keyword.Constant: ORANGE,
-        Keyword.Declaration: BLUE,
+        Keyword: VIOLET,
+        Keyword.Constant: BLUE,
+        Keyword.Declaration: VIOLET,
         #Keyword.Namespace
         #Keyword.Pseudo
         Keyword.Reserved: BLUE,
-        Keyword.Type: RED,
+        Keyword.Type: BLUE,
 
         Name: BASE1,
         Name.Attribute: BASE1,
-        Name.Builtin: YELLOW,
-        Name.Builtin.Pseudo: BLUE,
+        Name.Builtin: RED,
+        Name.Builtin.Pseudo: VIOLET,
         Name.Class: BLUE,
         Name.Constant: ORANGE,
         Name.Decorator: BLUE,
@@ -62,10 +61,10 @@ class OneLightStyle(Style):
 
         #Literal
         #Literal.Date
-        String: CYAN,
+        String: GREEN,
         String.Backtick: BASE01,
-        String.Char: CYAN,
-        String.Doc: CYAN,
+        String.Char: GREEN,
+        String.Doc: GREEN,
         #String.Double
         String.Escape: ORANGE,
         String.Heredoc: BASE1,
@@ -75,7 +74,7 @@ class OneLightStyle(Style):
         #String.Single
         #String.Symbol
 
-        Number: CYAN,
+        Number: YELLOW,
         #Number.Float
         #Number.Hex
         #Number.Integer
@@ -94,11 +93,11 @@ class OneLightStyle(Style):
         Comment.Special: GREEN,
 
         #Generic
-        Generic.Deleted: CYAN,
+        Generic.Deleted: VIOLET,
         Generic.Emph: 'italic',
         Generic.Error: RED,
         Generic.Heading: ORANGE,
-        Generic.Inserted: GREEN,
+        Generic.Inserted: BLUE,
         #Generic.Output
         #Generic.Prompt
         Generic.Strong: 'bold',

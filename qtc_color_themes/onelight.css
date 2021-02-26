@@ -6,7 +6,7 @@ QPlainTextEdit, QTextEdit {
 }
 .inverted { background-color: #526EFF; color: #A0A0A0;}
 .error { color: #E45649; }
-.in-prompt { color: #50A14F; }
+.in-prompt { color: #A626A4; }
 .in-prompt-number { font-weight: bold; }
-.out-prompt { color: #A626A4; }
+.out-prompt { color: #50A14F; }
 .out-prompt-number { font-weight: bold; }
