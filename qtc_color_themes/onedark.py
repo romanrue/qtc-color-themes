@@ -2,7 +2,7 @@
 A Pygments_ style based on the dark background variant of Solarized_.
 
 .. _Pygments: http://pygments.org/
-.. _Solarized: http://ethanschoonover.com/solarized
+.. _vim-one: https://github.com/rakr/vim-one
 """
 from pygments.style import Style
 from pygments.token import Token, Comment, Name, Keyword, Generic, Number

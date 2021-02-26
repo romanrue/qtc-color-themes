@@ -21,8 +21,9 @@ setup(
     package_data={NAME: ["*.css"]},
     entry_points={"pygments.styles": [
         "{style} = {pkgname}.{style}:Base16OceanDarkStyle".format(pkgname=NAME, style='base16_ocean_dark'),
+        "{style} = {pkgname}.{style}:OneLightStyle".format(pkgname=NAME, style='onelight'),
         "{style} = {pkgname}.{style}:OneDarkStyle".format(pkgname=NAME, style='onedark'),
-        '{style} = {pkgname}.{style}:MaterialLightStyle'.format(pkgname=NAME, style='material_light'),
+        "{style} = {pkgname}.{style}:MaterialLightStyle".format(pkgname=NAME, style='material_light'),
         "{style} = {pkgname}.{style}:SolarizeddarkStyle".format(pkgname=NAME, style='solarizeddark'),
         "{style} = {pkgname}.{style}:SolarizedlightStyle".format(pkgname=NAME, style='solarizedlight'),
         "{style} = {pkgname}.{style}:TomorrowStyle".format(pkgname=NAME, style='tomorrow'),
